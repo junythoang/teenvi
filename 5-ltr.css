@@ -239,20 +239,6 @@ a.sceditor-color-option:hover:after{content:" ";display:block;width:24px;height:
 .message-newMess .message-block:before{border-color:transparent orange transparent transparent}
 #profile-advanced-details dl{width:100%;padding:0}
 
-/* inbox */
-.posting-options + ul.privmsg{float:none;margin:17px 0 21px 0}
-.posting-options + ul.privmsg li{width:25%;text-align:center;margin:0;height:100px;line-height:100px}
-.posting-options + ul.privmsg li a{color:#333;display:block;padding:20px 0 0;height:100px;margin:-20px 0 0;color:#FFF}
-.posting-options + ul.privmsg li div.tabitem{padding:20px 0 0;height:100px;background:url(http://i83.servimg.com/u/f83/16/58/89/73/read_m10.png) no-repeat center 20px #FFF;color:#444}
-.posting-options + ul.privmsg li:nth-child(2) div.tabitem{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/reply10.png)}
-.posting-options + ul.privmsg li:nth-child(3) div.tabitem{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/new_po10.png)}
-.posting-options + ul.privmsg li:nth-child(4) div.tabitem{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/save_a10.png)}
-.posting-options + ul.privmsg li div.tabitem a{background:url(http://i39.servimg.com/u/f39/18/59/49/93/read_m10.png) no-repeat center 20px #2B6565}
-.posting-options + ul.privmsg li:nth-child(2) div.tabitem a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/reply110.png)}
-.posting-options + ul.privmsg li:nth-child(3) div.tabitem a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/new_po10.png)}
-.posting-options + ul.privmsg li:nth-child(4) div.tabitem a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/save_a10.png)}
-#profile-advanced-layout ul.privmsg li a:hover,#profile-advanced-details .message-footer li a:hover,.posting-options + ul.privmsg li div.tabitem a:hover{background-color:#444!important}
-
 /* jQuery plugin zzConfirm v0.2 by zzbaivong (http://devs.forumvi.com) */
 #zzConfirm_wrap{background:none repeat scroll 0 0 #222;border:1px solid #555;min-width:140px;position:absolute;text-align:center;z-index:999;padding:7px 13px}
 #zzConfirm_content{border-bottom:1px solid #555;color:#DDD;margin-bottom:7px;padding-bottom:5px}
