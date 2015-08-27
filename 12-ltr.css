@@ -195,6 +195,20 @@ a.sceditor-color-option{border:0 none!important;width:8px;height:4px}
 a.sceditor-color-option:hover:after{content:" ";display:block;width:24px;height:24px;position:absolute;left:1px;top:-27px;background:inherit;border:1px solid #FFF}
 #text_editor_textarea{width:100px!important;display:block!important;opacity:0!important;position:absolute!important;z-index:-999!important}
 
+/* inbox*/
+.posting-options + ul.tv-privmsg{float:none;margin:17px 0 21px 0}
+.posting-options + ul.tv-privmsg li{width:25%;text-align:center;margin:0;height:100px;display: inline-block;line-height:100px}
+.posting-options + ul.tv-privmsg li a{color:#333;display:block;padding:20px 0 0;height:100px;margin:-20px 0 0 1%;color:#FFF}
+.posting-options + ul.tv-privmsg li div.tv-priv{padding:20px 0 0;height:100px;background:url(http://i83.servimg.com/u/f83/16/58/89/73/read_m10.png) no-repeat center 20px #FFF;color:#444}
+.posting-options + ul.tv-privmsg li:nth-child(2) div.tv-priv{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/reply10.png)}
+.posting-options + ul.tv-privmsg li:nth-child(3) div.tv-priv{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/new_po10.png)}
+.posting-options + ul.tv-privmsg li:nth-child(4) div.tv-priv{background-image:url(http://i83.servimg.com/u/f83/16/58/89/73/save_a10.png)}
+.posting-options + ul.tv-privmsg li div.tv-priv a{background:url(http://i39.servimg.com/u/f39/18/59/49/93/read_m10.png) no-repeat center 20px #889FAF}
+.posting-options + ul.tv-privmsg li:nth-child(2) div.tv-priv a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/reply110.png)}
+.posting-options + ul.tv-privmsg li:nth-child(3) div.tv-priv a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/new_po10.png)}
+.posting-options + ul.tv-privmsg li:nth-child(4) div.tv-priv a{background-image:url(http://i39.servimg.com/u/f39/18/59/49/93/save_a10.png)}
+#profile-advanced-layout ul.tv-privmsg li a:hover,#profile-advanced-details .message-footer li a:hover,.posting-options + ul.tv-privmsg li div.tv-priv a:hover{background-color:#444!important}
+
 /* profile page */
 #profile-advanced-right .module,#new-message-link,.new-message.bottom,#profile-advanced-add br,.message-footer{display:none}
 #profile-advanced-right .module:first-child,#profile-advanced-add + .module{display:block;position:relative;margin:0;border:0;width:300px;height:240px;overflow:hidden}
@@ -400,7 +414,7 @@ ul.SecondaryContent-tv li{border-bottom:1px solid #CFCFCF;border-top:1px solid #
 .skinBlack .olList li:nth-child(5):before,.skinBlack ol.olList li:nth-child(5):after{background:#434B56}
 .skinBlack .olList li:nth-child() ~ li:before,.skinBlack ol.olList li:nth-child(3) ~ li:after{color:#080808;text-shadow:0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF}
 /*--------- background color ------------------*/
-.skinBlack ul.privmsg li,.skinBlack .menubar2 > li > a.active,.skinBlack div.pagination a.goto,.skinBlack div.pagination a,.skinBlack #fa_toolbar,.skinBlack #profile-advanced-right .module:first-child .box-content.profile,.skinBlack #profile-advanced-add + .module .box-content.profile,.skinBlack #profile-advanced-layout,.skinBlack div.maintitle,.skinBlack #header,.skinBlack #search input:checked + label,.skinBlack #search .button,.skinBlack #loginReg ul > li > a:hover,.skinBlack #navstrip > li.begin,.skinBlack .post-icon a,.skinBlack .posting-icons a,.skinBlack input.button,.skinBlack a.button,.skinBlack input.button1,.skinBlack #profile-advanced-details .message-header,.skinBlack input[type="submit"],.skinBlack .tv-subhead{background-color:#716F78}
+.skinBlack ul.tv-privmsg li,.skinBlack .menubar2 > li > a.active,.skinBlack div.pagination a.goto,.skinBlack div.pagination a,.skinBlack #fa_toolbar,.skinBlack #profile-advanced-right .module:first-child .box-content.profile,.skinBlack #profile-advanced-add + .module .box-content.profile,.skinBlack #profile-advanced-layout,.skinBlack div.maintitle,.skinBlack #header,.skinBlack #search input:checked + label,.skinBlack #search .button,.skinBlack #loginReg ul > li > a:hover,.skinBlack #navstrip > li.begin,.skinBlack .post-icon a,.skinBlack .posting-icons a,.skinBlack input.button,.skinBlack a.button,.skinBlack input.button1,.skinBlack #profile-advanced-details .message-header,.skinBlack input[type="submit"],.skinBlack .tv-subhead{background-color:#716F78}
 .skinBlack .borderwrapm,.skinBlack .ipbform2 dl,.skinBlack .popupmenu,.skinBlack .ipbform2 dl dd,.skinBlack .borderwrap,.skinBlack .box-content,.skinBlack .row1,.skinBlack .row2,.skinBlack table.ipbtable img.icon,.skinBlack .post,.skinBlack .qreply,.skinBlack .sceditor-container textarea,.skinBlack .sceditor-container,.skinBlack #navstrip,.skinBlack #navstrip > li,.skinBlack .post .post-header,.skinBlack .post-entry,.skinBlack .post-footer,.skinBlack .post-entry blockquote,.skinBlack dl.codebox dd,.skinBlack .overview,.skinBlack th.tabs label,.skinBlack .postprofile-avatar.avatar img,.skinBlack .prField, .skinBlack img.sprite-icon_post_target ~ a,.skinBlack .message-header a, .skinBlack .postprofile,  .skinBlack postprofile.privmsgs,.skinBlack .pathname-box,.skinBlack span.crust.homeCrumb li,.skinBlack #loginReg ul,.skinBlack .tv-subbox {background:#34323E!important;color:#A7A7A7}
 .skinBlack #profile-advanced-right .module .maintitle,.skinBlack #logo > a:hover,.skinBlack #loginReg > div > a:hover,.skinBlack #profile-advanced-layout ul.privmsg li a,.skinBlack #profile-advanced-add,.skinBlack #profile-advanced-layout ul.privmsg li a,.skinBlack .posting-options + ul.privmsg li div.tabitem a{background-color:#34495e}
 .skinBlack input[type="button"]:hover,.skinBlack input.button:hover,.skinBlack a.button:hover,.skinBlack input.button1:hover,.skinBlack input[type="submit"]:hover{background-color:#000!important}
